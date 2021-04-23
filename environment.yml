@@ -1,0 +1,20 @@
+name: absub
+channels:
+  - conda-forge
+  - defaults
+  - gimli
+dependencies:
+#  - pygimli==1.2.1
+  - ipython
+  - jupyter
+  - matplotlib
+  - python
+  - pooch
+  - scooby
+  - xarray
+  - pip
+  - pip:
+      - subsurface
+      - git+https://github.com/cgre-aachen/gempy.git
+      - git+https://github.com/gimli-org/gimli.git@dev
+
